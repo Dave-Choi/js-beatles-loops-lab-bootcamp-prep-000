@@ -7,7 +7,7 @@ function theBeatlesPlay(musicians, instruments){
   for(let i=0; i<numMusicians; i++){
     let musician = musicians[i];
     let instrument = instruments[i];
-    output.push(`${musician} plays ${instrument}.`);
+    output.push(`${musician} plays ${instrument}`);
   }
   
   return output;
